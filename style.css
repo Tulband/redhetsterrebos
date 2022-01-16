@@ -9,8 +9,39 @@ Version: 1.0.0
 Text Domain: rhs-twentytwentyone-child
 */
 
-/****************** TWEAKINGS *********************/
+/****************** footer *********************/
 
-.site-name{
+.site-name {
 	margin-top: 9rem;
+}
+
+
+
+/*************** weird ass widget area **************/
+
+.widget-area {
+	grid-template-columns: none !important;
+	margin-top: 1rem !important;
+	padding-top: 1rem !important;
+}
+
+.wp-block-group__inner-container {
+	width: 80%;
+}
+
+.wp-block-group__inner-container h2 {
+	text-align: center;
+}
+
+.wp-block-archives-list {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-evenly;
+	width: 90%;
+}
+
+
+.wp-block-archives-list li {
+	list-style-type: none;
+	padding: 1rem;
 }
