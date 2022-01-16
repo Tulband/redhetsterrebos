@@ -8,3 +8,9 @@ Template: twentytwentyone
 Version: 1.0.0
 Text Domain: rhs-twentytwentyone-child
 */
+
+/****************** TWEAKINGS *********************/
+
+.site-name{
+	margin-top: 9rem;
+}
