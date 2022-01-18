@@ -24,4 +24,15 @@ function my_theme_enqueue_styles() {
     //wp_enqueue_style( 'child-style', get_stylesheet_uri());
 }
 
+
+
+///// extra header menu
+
+function register_top_header_menu() {
+	register_nav_menu('top-header-menu', __( 'Top Header Menu' ));
+}
+add_action( 'init', 'register_top_header_menu' );
+
+
+
 ?>

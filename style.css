@@ -45,3 +45,20 @@ Text Domain: rhs-twentytwentyone-child
 	list-style-type: none;
 	padding: 1rem;
 }
+
+/*********** top-header-menu *********/
+.rhs-top-header-menu {
+	width: 90%;
+	text-align: right;
+}
+
+.rhs-top-header-menu li {
+	display: inline;
+	list-style-type: none;
+	padding-left: 1rem;
+}
+
+
+.current-lang {
+	font-weight: bold;
+}
