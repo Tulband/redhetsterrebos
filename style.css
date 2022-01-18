@@ -48,6 +48,7 @@ Text Domain: rhs-twentytwentyone-child
 
 /*********** top-header-menu *********/
 .rhs-top-header-menu {
+	padding-top: 0.8rem;
 	width: 90%;
 	text-align: right;
 }
@@ -58,7 +59,24 @@ Text Domain: rhs-twentytwentyone-child
 	padding-left: 1rem;
 }
 
+.site-header {
+	padding-top: 0 !important;
+}
 
 .current-lang {
 	font-weight: bold;
 }
+
+
+@media only screen and (max-width: 481px) {
+
+	.rhs-top-header-menu {
+		font-size: 1rem;
+	}
+
+	.primary-navigation {
+		top: 5rem !important;
+	}
+
+}
+
