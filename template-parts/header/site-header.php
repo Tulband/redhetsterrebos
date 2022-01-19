@@ -19,8 +19,10 @@ $wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
 		<?php wp_nav_menu( array( 'theme_location' => 'top-header-menu' ) ); ?>
 	</div>
 
-	<?php get_template_part( 'template-parts/header/site-branding' ); ?>
-	<?php get_template_part( 'template-parts/header/site-nav' ); ?>
+	<div class="rhs-rest-header">
+		<?php get_template_part( 'template-parts/header/site-branding' ); ?>
+		<?php get_template_part( 'template-parts/header/site-nav' ); ?>
+	</div>
 
 </header><!-- #masthead -->
 
