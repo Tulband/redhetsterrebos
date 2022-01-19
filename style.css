@@ -46,6 +46,47 @@ Text Domain: rhs-twentytwentyone-child
 	padding: 1rem;
 }
 
+
+/********** header ************/
+
+.entry-header, .page-header {
+	width: 60% !important;
+	max-width: none !important;
+}
+
+.rhs-site-header {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+	.entry-header, .page-header {
+		width: 90% !important;
+	}
+
+	.rhs-site-header {
+		width: 90%;
+	}
+}
+
+
+/**** home page *****/
+
+.rhs-front-page-content, .entry-content, .entry-footer, .site-footer, .widget-area {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+	.rhs-front-page-content, .entry-content, .entry-footer, .site-footer, .widget-area {
+		width: 90%;
+	}
+}
+
+
+
 /*********** top-header-menu *********/
 .rhs-top-header-menu {
 	padding-top: 0.8rem;
@@ -79,4 +120,6 @@ Text Domain: rhs-twentytwentyone-child
 	}
 
 }
+
+
 

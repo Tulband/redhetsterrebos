@@ -13,7 +13,7 @@ $wrapper_classes .= ( true === get_theme_mod( 'display_title_and_tagline', true 
 $wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
 ?>
 
-<header id="masthead" class="<?php echo esc_attr( $wrapper_classes ); ?>" role="banner">
+<header id="masthead" class="rhs-site-header" role="banner">
 
 	<div class="rhs-top-header-menu">
 		<?php wp_nav_menu( array( 'theme_location' => 'top-header-menu' ) ); ?>
